@@ -1,0 +1,88 @@
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
+li{
+  display: inline-block;
+}
+
+hr{
+   border-top: medium double #333;
+}
+
+body{
+       width:80%;
+       margin-left:auto;
+       margin-right:auto;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  padding-top: 35px;
+}
+
+.brand{
+  flex: 2 0 0;
+  font-size: 45px;
+  font-style: oblique;
+}
+
+.about-brand{
+  font-size: 18px;
+}
+
+.portfolio-header{
+  display: flex;
+  align-items: baseline;
+  height: 40px;
+}
+
+.tab{
+  background-color: #A4A4A4;
+}
+
+
+.portfolio-title{
+  flex: 1 0 0;
+  font-size: 20px;
+}
+
+img{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.glyphicon glyphicon-camera{
+  height: 20px;
+}
+
+.footer{
+  display: flex;
+  align-items: baseline;
+}
+
+.social{
+  flex: 1 0 0;
+}
+.copyright{
+  display: flex;
+  align-items: baseline;
+}
+
+.t1{
+  background-color: F3E051;
+}
